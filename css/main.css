@@ -97,8 +97,9 @@ textarea {
 
 
 html {
-  background-color: #fff;
-  height: 100%;
+    background: url(../img/plants.jpg) no-repeat center center fixed;
+    height: 100%;
+    background-size: cover;
 }
 
 body {
@@ -109,24 +110,29 @@ body {
 }
 
 .wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+margin: 0;
+height: 100%;
+width: 100%;
+    font-weight: 700;
   display: flex;
   justify-content: space-between;
-  
+  align-items: center;
 }
 
 .div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  
+ color: black;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1em;
+  background: rgba(255, 255, 255, 0.6);
   display: flex;
   width: 30%; 
   justify-content: center;
   align-items: center;
+  overflow: auto;
+  text-align: justify;
+  padding: 0.32em 0.5em 0.32em 0.5em;
+  border: 0.1em solid black;
 }
 
 
